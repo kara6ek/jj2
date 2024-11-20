@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.invitation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.central-box {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    text-align: left;
+    border: 2px solid #285b6e;
+    position: relative;
+}
+
+.text-container {
+    color: #285b6e;
+    width: 60%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Выравнивание текста по центру левой части */
+}
+
+.logo-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo {
+    width: 80px; /* Логотип без эффекта увеличения */
+    height: auto;
+}
+
+.greeting {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.work-title {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.partners {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Новый стиль для блоков с информацией */
+.info-block {
+    margin-top: 20px;
+    background-color: #285b6e;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ширина блока на всю доступную ширину */
+    transition: transform 0.3s ease;
+}
+
+.info-block:hover {
+    transform: scale(1.02); /* Блок с информацией увеличивается при наведении */
+}
+
+.info-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info-content {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.curator-photo {
+    width: 35%;
+    margin-left: 20px;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.photo:hover {
+    transform: scale(1.05); /* Фото увеличивается при наведении */
+}
